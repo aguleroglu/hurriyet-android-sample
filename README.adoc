@@ -1,0 +1,6 @@
+# hurriyet-android-sample
+
+Bu proje ile Hurriyet apilerini wrap'leyen https://github.com/aguleroglu/hurriyet-js-api üzerinde data çekerek,
+listeyeleyen ve sonrasında detaylarını incelyebildiğiniz bir uygulama geliştirilmiştir.
+
+Uygulamanın içerisinde onesignal ile bildirimler mevcuttur. Bu kısımda node-js ile yazılan api üzerinden, her 10 dakikada bir haberler kontrol edilerek, yeni haber geldiğinde uygulamayı kullanan kullanıcılara bildirim gönderilmektedir.
