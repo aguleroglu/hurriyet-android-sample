@@ -5,17 +5,17 @@ listeyeleyen ve sonrasında detaylarını incelyebildiğiniz bir uygulama geliş
 
 Uygulamanın içerisinde onesignal ile bildirimler mevcuttur. Bu kısımda node-js ile yazılan api üzerinden, her 10 dakikada bir haberler kontrol edilerek, yeni haber geldiğinde uygulamayı kullanan kullanıcılara bildirim gönderilmektedir.
 
-#Development
+# Development
 
 Uygulama Android Studio ile geliştirildi. Default Theme kullanıldı. İçerisinde MainActivity üzerinden, ArticlesData (AsyncTask) ile api üzerinden haberler çekildi ve ArticleAdapter ile listView üzerinde basıldı. Burada her row basılırken article_cell isimli layout kullanıldı.
 Daha sonra haber tıklandığı zaman ise, haberin detay bilgileri gösterildi.
 HurriyetApplication isimli nesne ile de onesignal entegrasyonu gerçekleştirildi.
 
-#Servis
+# Servis
 
 Servis kısmında https://github.com/aguleroglu/hurriyet-js-api repository'si kullanıldı. Bu kısımda ise, haberleri ve detaylarını getiren servis geliştirildi. Aynı zamanda 10 dakikada bir haberleri kontrol edip, eğer yeni haber var ise bildirim gönderen bir ara uygulamada servis üzerinde geliştirildi.
 
-#Deploy
+# Deploy
 
 Servisin deployment kısmında ise heroku kullanıldıi. Bu kısımda https://hurriyet-js-api.herokuapp.com servis yayın yapmaktadır.
 
