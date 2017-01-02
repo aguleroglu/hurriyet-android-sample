@@ -18,3 +18,7 @@ Servis kısmında https://github.com/aguleroglu/hurriyet-js-api repository'si ku
 #Deploy
 
 Servisin deployment kısmında ise heroku kullanıldıi. Bu kısımda https://hurriyet-js-api.herokuapp.com servis yayın yapmaktadır.
+
+**Uygulama Videosu :** https://raw.githubusercontent.com/aguleroglu/hurriyet-android-sample-assets/master/Servis%20ve%20Android%20Uygulama%20%C4%B0ncelemeleri.webm?token=AGJDdH9io2GfRvr3KDM0hldAWG6GZCjXks5Yc2L6wA%3D%3D
+
+**Servis Videosu :** https://raw.githubusercontent.com/aguleroglu/hurriyet-android-sample-assets/master/Uygulama%20G%C3%B6rselleri.mp4?token=AGJDdIKV86sxyjQ57Vc2dYeRL3HQk7yBks5Yc2OtwA%3D%3D
